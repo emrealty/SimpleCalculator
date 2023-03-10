@@ -64,8 +64,8 @@ class ViewController: UIViewController {
         if let firstNumber = Int(FirstText.text!){
             if let secondNumber = Int(SecondText.text!){
             
-                result = firstNumber / secondNumber
-                resultText.text = String(result)
+                let result2 = Double(firstNumber) / Double(secondNumber)
+                resultText.text = String(result2)
             }
         }
         
